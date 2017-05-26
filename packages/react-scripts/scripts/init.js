@@ -41,6 +41,8 @@ module.exports = function(
   appPackage.dependencies = appPackage.dependencies || {};
   appPackage.devDependencies = appPackage.devDependencies || {};
 
+  console.log(appPackage);
+
   // Setup the script rules
   appPackage.scripts = {
     start: 'react-scripts start',
